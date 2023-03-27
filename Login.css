@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.containers{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.title{
+  position: absolute;
+  height: 10vh;
+  align-items: center;  
+  left: 42%;
+  top: 235px;
+  padding: 0.2em 0.6em;
+  margin: 0;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 44%;
+  top: 380px;
+}
+
+#Usuario{
+ position: absolute;
+ left: 46%;
+ padding: 0.3em 0.5em;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 12px;
+}
+
+#Senha{
+  position: absolute;
+  left: 46%;
+  top: 43%;
+  padding: 0.3em 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#btn-entrar{
+  position: absolute;
+  top:47%;
+  left: 48%;
+  padding: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 15px; 
+  color: #ffffff;
+  background-color: rgba(28, 91, 28, 0.903);
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+  text-shadow: 2px 2px 2px rgb(11, 11, 11);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+
